@@ -1,0 +1,47 @@
+# Try BioStack locally with synthetic demo data in one command (isolated from ./state):
+#   docker compose -f docker-compose.demo.yml up --build
+# Then open http://127.0.0.1:3000
+name: biostack-demo
+
+services:
+  api:
+    build: ./apps/api
+    image: biostack-api
+    restart: unless-stopped
+    environment:
+      API_SECRET_KEY: ${API_SECRET_KEY:-demo-secret-key}
+      DATABASE_URL: sqlite:////state/biostack.db
+      DATA_DIR: /state/data
+      BIOSTACK_API_URL: http://api:8000
+      APP_ENV: test
+      BIOSTACK_FAKE_AI: "1"
+    volumes:
+      - ./demo-state:/state
+    command:
+      - sh
+      - -c
+      - alembic upgrade head && python -m scripts.seed_demo --yes --force-real --db sqlite:////state/biostack.db && uvicorn main:app --host 0.0.0.0 --port 8000
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      start_period: 30s
+      retries: 5
+
+  web:
+    build: ./apps/web
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    environment:
+      API_BASE_URL: http://api:8000
+      API_SECRET_KEY: ${API_SECRET_KEY:-demo-secret-key}
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('net').connect(3000, '127.0.0.1').on('connect', () => process.exit(0)).on('error', () => process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      start_period: 20s
+      retries: 5
+    ports:
+      - "127.0.0.1:${WEB_PORT:-3000}:3000"

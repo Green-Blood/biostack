@@ -1,0 +1,945 @@
+[
+ {
+  "marker_key": "alpha_amylase",
+  "display_name": "Alpha-Amylase",
+  "display_name_ru": "Альфа-амилаза",
+  "aliases": [
+   "alpha amylase",
+   "альфа-амилаза",
+   "амилаза альфа",
+   "амилаза общая",
+   "amylase total",
+   "Альфа-Амилаза (Диастаза)",
+   "диастаза"
+  ],
+  "system": "pancreas",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "pancreatic_amylase",
+  "display_name": "Pancreatic Amylase",
+  "display_name_ru": "Панкреатическая амилаза",
+  "aliases": [
+   "pancreatic amylase",
+   "панкреатическая амилаза",
+   "амилаза панкреатическая"
+  ],
+  "system": "pancreas",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "pancreatic_lipase",
+  "display_name": "Pancreatic Lipase",
+  "display_name_ru": "Панкреатическая липаза",
+  "aliases": [
+   "pancreatic lipase",
+   "липаза панкреатическая",
+   "панкреатическая липаза",
+   "lipase",
+   "липаза"
+  ],
+  "system": "pancreas",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "alkaline_phosphatase",
+  "display_name": "Alkaline Phosphatase",
+  "display_name_ru": "Щелочная фосфатаза",
+  "aliases": [
+   "alkaline phosphatase",
+   "alp",
+   "щелочная фосфатаза"
+  ],
+  "system": "liver",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "vitamin_d_25_oh",
+  "display_name": "Vitamin D (25-OH)",
+  "display_name_ru": "Витамин D (25-OH)",
+  "aliases": [
+   "vitamin d 25-oh",
+   "25-oh vitamin d",
+   "vitamin d",
+   "витамин d",
+   "витамин d 25-oh",
+   "25-oh витамин d",
+   "25 oh vitamin d total",
+   "total vitamin d 25 oh витамин д общий",
+   "витамин д общий",
+   "витамин д 25-oh"
+  ],
+  "system": "vitamins",
+  "retest_days": 90
+ },
+ {
+  "marker_key": "ferritin",
+  "display_name": "Ferritin",
+  "display_name_ru": "Ферритин",
+  "aliases": [
+   "ferritin",
+   "ферритин"
+  ],
+  "system": "vitamins",
+  "retest_days": 120
+ },
+ {
+  "marker_key": "testosterone_total",
+  "display_name": "Testosterone (total)",
+  "display_name_ru": "Тестостерон общий",
+  "aliases": [
+   "testosterone total",
+   "testosterone, total",
+   "тестостерон общий",
+   "тестостерон"
+  ],
+  "system": "hormones",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "testosterone_free",
+  "display_name": "Testosterone (free)",
+  "display_name_ru": "Тестостерон свободный",
+  "aliases": [
+   "testosterone free",
+   "free testosterone",
+   "тестостерон свободный"
+  ],
+  "system": "hormones",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "shbg",
+  "display_name": "SHBG",
+  "display_name_ru": "ГСПГ (SHBG)",
+  "aliases": [
+   "shbg",
+   "ггпс",
+   "глобулин связывающий половые гормоны"
+  ],
+  "system": "hormones",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "tsh",
+  "display_name": "TSH",
+  "display_name_ru": "ТТГ",
+  "aliases": [
+   "tsh",
+   "тиреотропный гормон",
+   "ттг",
+   "Тиреотропный гормон (ТТГ)"
+  ],
+  "system": "thyroid",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "free_t4",
+  "display_name": "Free T4",
+  "display_name_ru": "Свободный Т4",
+  "aliases": [
+   "free t4",
+   "ft4",
+   "т4 свободный",
+   "тироксин свободный",
+   "Тироксин свободный (Т4 св)"
+  ],
+  "system": "thyroid",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "free_t3",
+  "display_name": "Free T3",
+  "display_name_ru": "Свободный Т3",
+  "aliases": [
+   "free t3",
+   "ft3",
+   "т3 свободный",
+   "трийодтиронин свободный",
+   "Трийодтиронин свободный (Т3 св)"
+  ],
+  "system": "thyroid",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "anti_tpo",
+  "display_name": "Anti-TPO",
+  "display_name_ru": "Антитела к ТПО (анти-ТПО)",
+  "aliases": [
+   "anti-tpo",
+   "ат-тпо",
+   "антитела к тпо",
+   "anti tpo",
+   "Антитела к тиреопероксидазе (АТ- ТПО)"
+  ],
+  "system": "thyroid",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "hemoglobin",
+  "display_name": "Hemoglobin",
+  "display_name_ru": "Гемоглобин",
+  "aliases": [
+   "hemoglobin",
+   "гемоглобин",
+   "hgb",
+   "hb",
+   "HGB Гемоглобин"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "hematocrit",
+  "display_name": "Hematocrit",
+  "display_name_ru": "Гематокрит",
+  "aliases": [
+   "hematocrit",
+   "гематокрит",
+   "HCT Гематокрит",
+   "hct"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "rbc",
+  "display_name": "Red blood cells",
+  "display_name_ru": "Эритроциты",
+  "aliases": [
+   "rbc",
+   "red blood cells",
+   "эритроциты",
+   "RBC Эритроциты"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "wbc",
+  "display_name": "White blood cells",
+  "display_name_ru": "Лейкоциты",
+  "aliases": [
+   "wbc",
+   "white blood cells",
+   "лейкоциты",
+   "Лейкоциты Процент"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "platelets",
+  "display_name": "Platelets",
+  "display_name_ru": "Тромбоциты",
+  "aliases": [
+   "platelets",
+   "plt",
+   "тромбоциты",
+   "PLT Тромбоциты"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "esr",
+  "display_name": "ESR",
+  "display_name_ru": "СОЭ",
+  "aliases": [
+   "esr",
+   "соэ",
+   "скорость оседания эритроцитов",
+   "ESR Скорость оседания эритроцитов"
+  ],
+  "system": "inflammation",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "crp",
+  "display_name": "C-reactive protein",
+  "display_name_ru": "С-реактивный белок",
+  "aliases": [
+   "crp",
+   "c-reactive protein",
+   "срб",
+   "с-реактивный белок"
+  ],
+  "system": "inflammation",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "glucose",
+  "display_name": "Glucose",
+  "display_name_ru": "Глюкоза",
+  "aliases": [
+   "glucose",
+   "глюкоза",
+   "Глюкоза на тощак",
+   "глюкоза натощак"
+  ],
+  "system": "glucose",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "hba1c",
+  "display_name": "HbA1c",
+  "display_name_ru": "Гликированный гемоглобин (HbA1c)",
+  "aliases": [
+   "hba1c",
+   "гликированный гемоглобин",
+   "Гликозилированный гемоглобин"
+  ],
+  "system": "glucose",
+  "retest_days": 90
+ },
+ {
+  "marker_key": "insulin",
+  "display_name": "Insulin",
+  "display_name_ru": "Инсулин",
+  "aliases": [
+   "insulin",
+   "инсулин"
+  ],
+  "system": "glucose",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "total_cholesterol",
+  "display_name": "Total cholesterol",
+  "display_name_ru": "Холестерин общий",
+  "aliases": [
+   "total cholesterol",
+   "cholesterol",
+   "холестерин общий",
+   "холестерин",
+   "Холестерол общий"
+  ],
+  "system": "lipids",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "ldl",
+  "display_name": "LDL cholesterol",
+  "display_name_ru": "Холестерин ЛПНП",
+  "aliases": [
+   "ldl",
+   "ldl cholesterol",
+   "лпнп",
+   "Холестерол-ЛПНП"
+  ],
+  "system": "lipids",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "hdl",
+  "display_name": "HDL cholesterol",
+  "display_name_ru": "Холестерин ЛПВП",
+  "aliases": [
+   "hdl",
+   "hdl cholesterol",
+   "лпвп",
+   "Холестерол-ЛПВП"
+  ],
+  "system": "lipids",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "triglycerides",
+  "display_name": "Triglycerides",
+  "display_name_ru": "Триглицериды",
+  "aliases": [
+   "triglycerides",
+   "триглицериды"
+  ],
+  "system": "lipids",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "alt",
+  "display_name": "ALT",
+  "display_name_ru": "АЛТ",
+  "aliases": [
+   "alt",
+   "alanine aminotransferase",
+   "алт",
+   "аланинаминотрансфераза",
+   "Аланинаминотрансфераза (АЛТ)"
+  ],
+  "system": "liver",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "ast",
+  "display_name": "AST",
+  "display_name_ru": "АСТ",
+  "aliases": [
+   "ast",
+   "aspartate aminotransferase",
+   "аст",
+   "аспартатаминотрансфераза",
+   "Аспартатаминотрансфераза (АСТ)"
+  ],
+  "system": "liver",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "ggt",
+  "display_name": "GGT",
+  "display_name_ru": "ГГТ",
+  "aliases": [
+   "ggt",
+   "gamma-gt",
+   "ггт",
+   "гамма-глутамилтрансфераза",
+   "Гамма-глутамилтрансфераза (ГГТ)"
+  ],
+  "system": "liver",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "bilirubin_total",
+  "display_name": "Total bilirubin",
+  "display_name_ru": "Билирубин общий",
+  "aliases": [
+   "total bilirubin",
+   "bilirubin total",
+   "билирубин общий",
+   "билирубин"
+  ],
+  "system": "liver",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "creatinine",
+  "display_name": "Creatinine",
+  "display_name_ru": "Креатинин",
+  "aliases": [
+   "creatinine",
+   "креатинин"
+  ],
+  "system": "kidney",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "urea",
+  "display_name": "Urea",
+  "display_name_ru": "Мочевина",
+  "aliases": [
+   "urea",
+   "мочевина"
+  ],
+  "system": "kidney",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "uric_acid",
+  "display_name": "Uric acid",
+  "display_name_ru": "Мочевая кислота",
+  "aliases": [
+   "uric acid",
+   "мочевая кислота"
+  ],
+  "system": "kidney",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "total_protein",
+  "display_name": "Total protein",
+  "display_name_ru": "Белок общий",
+  "aliases": [
+   "total protein",
+   "общий белок"
+  ],
+  "system": "liver",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "albumin",
+  "display_name": "Albumin",
+  "display_name_ru": "Альбумин",
+  "aliases": [
+   "albumin",
+   "альбумин"
+  ],
+  "system": "liver",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "iron",
+  "display_name": "Iron",
+  "display_name_ru": "Железо",
+  "aliases": [
+   "iron",
+   "serum iron",
+   "железо",
+   "железо сыворотки"
+  ],
+  "system": "vitamins",
+  "retest_days": 120
+ },
+ {
+  "marker_key": "vitamin_b12",
+  "display_name": "Vitamin B12",
+  "display_name_ru": "Витамин B12",
+  "aliases": [
+   "vitamin b12",
+   "b12",
+   "витамин b12",
+   "цианокобаламин"
+  ],
+  "system": "vitamins",
+  "retest_days": 90
+ },
+ {
+  "marker_key": "folate",
+  "display_name": "Folate",
+  "display_name_ru": "Фолиевая кислота (фолат)",
+  "aliases": [
+   "folate",
+   "folic acid",
+   "фолиевая кислота",
+   "фолаты"
+  ],
+  "system": "vitamins",
+  "retest_days": 90
+ },
+ {
+  "marker_key": "calcium_total",
+  "display_name": "Calcium (total)",
+  "display_name_ru": "Кальций общий",
+  "aliases": [
+   "calcium",
+   "calcium total",
+   "кальций",
+   "кальций общий"
+  ],
+  "system": "minerals",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "magnesium",
+  "display_name": "Magnesium",
+  "display_name_ru": "Магний",
+  "aliases": [
+   "magnesium",
+   "магний"
+  ],
+  "system": "minerals",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "potassium",
+  "display_name": "Potassium",
+  "display_name_ru": "Калий",
+  "aliases": [
+   "potassium",
+   "калий"
+  ],
+  "system": "minerals",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "sodium",
+  "display_name": "Sodium",
+  "display_name_ru": "Натрий",
+  "aliases": [
+   "sodium",
+   "натрий"
+  ],
+  "system": "minerals",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "cortisol",
+  "display_name": "Cortisol",
+  "display_name_ru": "Кортизол",
+  "aliases": [
+   "cortisol",
+   "кортизол"
+  ],
+  "system": "hormones",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "psa_total",
+  "display_name": "PSA (total)",
+  "display_name_ru": "ПСА общий",
+  "aliases": [
+   "psa",
+   "psa total",
+   "пса",
+   "пса общий",
+   "простатспецифический антиген"
+  ],
+  "system": "hormones",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "rheumatoid_factor",
+  "display_name": "Rheumatoid factor",
+  "display_name_ru": "Ревматоидный фактор",
+  "aliases": [
+   "rheumatoid factor",
+   "rf",
+   "ревматоидный фактор",
+   "Ревматоидный фактор (RF)"
+  ],
+  "system": "inflammation",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "aso",
+  "display_name": "ASO",
+  "display_name_ru": "АСЛ-О",
+  "aliases": [
+   "aso",
+   "антистрептолизин-о",
+   "асло",
+   "антистрептолизин o",
+   "Антистрептолизин-О (ASLO)"
+  ],
+  "system": "inflammation",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "iodine_serum",
+  "display_name": "Iodine (serum)",
+  "display_name_ru": "Йод (сыворотка)",
+  "aliases": [
+   "йод в сыворотке",
+   "йод",
+   "iodine",
+   "iodine serum"
+  ],
+  "system": "thyroid",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "vldl",
+  "display_name": "VLDL cholesterol",
+  "display_name_ru": "Холестерин ЛПОНП",
+  "aliases": [
+   "vldl cholesterol",
+   "Холестерол- ЛПОНП",
+   "лпонп"
+  ],
+  "system": "lipids",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "atherogenic_index",
+  "display_name": "Atherogenic index",
+  "display_name_ru": "Индекс атерогенности",
+  "aliases": [
+   "atherogenic index",
+   "Индекс атерогенности"
+  ],
+  "system": "lipids",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "bilirubin_direct",
+  "display_name": "Direct bilirubin",
+  "display_name_ru": "Билирубин прямой",
+  "aliases": [
+   "direct bilirubin",
+   "Прямой билирубин"
+  ],
+  "system": "liver",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "bilirubin_indirect",
+  "display_name": "Indirect bilirubin",
+  "display_name_ru": "Билирубин непрямой",
+  "aliases": [
+   "indirect bilirubin",
+   "Непрямой билирубин"
+  ],
+  "system": "liver",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "mcv",
+  "display_name": "MCV",
+  "display_name_ru": "Средний объём эритроцитов (MCV)",
+  "aliases": [
+   "mcv",
+   "MCV Средний объем эритроцитов",
+   "mcv"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "mch",
+  "display_name": "MCH",
+  "display_name_ru": "Среднее содержание гемоглобина в эритроците (MCH)",
+  "aliases": [
+   "mch",
+   "MCH Среднее содержание гемоглобина в эритроците",
+   "mch"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "mchc",
+  "display_name": "MCHC",
+  "display_name_ru": "Средняя концентрация гемоглобина в эритроците (MCHC)",
+  "aliases": [
+   "mchc",
+   "МСНС Средняя концентрация гемоглобина в эритроците",
+   "mchc"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "rdw_cv",
+  "display_name": "RDW-CV",
+  "display_name_ru": "Анизоцитоз эритроцитов (RDW-CV)",
+  "aliases": [
+   "rdw-cv",
+   "RDW-CV ( Анизоцитоз эритроцитов)"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "rdw_sd",
+  "display_name": "RDW-SD",
+  "display_name_ru": "Анизоцитоз эритроцитов (RDW-SD)",
+  "aliases": [
+   "rdw-sd",
+   "RDW-SD ( Анизоцитоз эритроцитов) Стандартное Отклонение"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "mpv",
+  "display_name": "MPV",
+  "display_name_ru": "Средний объём тромбоцитов (MPV)",
+  "aliases": [
+   "mpv",
+   "MPV Средний объем тромбоцитов",
+   "mpv"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "pdw",
+  "display_name": "PDW",
+  "display_name_ru": "Анизоцитоз тромбоцитов (PDW)",
+  "aliases": [
+   "pdw",
+   "PDW ( Анизоцитоз тромбоцитов)",
+   "pdw"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "plateletcrit",
+  "display_name": "Plateletcrit",
+  "display_name_ru": "Тромбокрит (PCT)",
+  "aliases": [
+   "plateletcrit",
+   "PCT Тромбокрит"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "neutrophils_band_pct",
+  "display_name": "Band neutrophils %",
+  "display_name_ru": "Палочкоядерные нейтрофилы, %",
+  "aliases": [
+   "band neutrophils %",
+   "палочкоядерные Процент"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "neutrophils_seg_pct",
+  "display_name": "Segmented neutrophils %",
+  "display_name_ru": "Сегментоядерные нейтрофилы, %",
+  "aliases": [
+   "segmented neutrophils %",
+   "сегметоядерные Процент"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "eosinophils_pct",
+  "display_name": "Eosinophils %",
+  "display_name_ru": "Эозинофилы, %",
+  "aliases": [
+   "eosinophils %",
+   "эозинофилы Процент"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "basophils_pct",
+  "display_name": "Basophils %",
+  "display_name_ru": "Базофилы, %",
+  "aliases": [
+   "basophils %",
+   "базофилы Процент"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "lymphocytes_pct",
+  "display_name": "Lymphocytes %",
+  "display_name_ru": "Лимфоциты, %",
+  "aliases": [
+   "lymphocytes %",
+   "лимфоциты Процент"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "monocytes_pct",
+  "display_name": "Monocytes %",
+  "display_name_ru": "Моноциты, %",
+  "aliases": [
+   "monocytes %",
+   "моноциты Процент"
+  ],
+  "system": "blood_count",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "anti_thyroglobulin",
+  "display_name": "Anti-thyroglobulin",
+  "display_name_ru": "Антитела к тиреоглобулину",
+  "aliases": [
+   "anti-thyroglobulin",
+   "Антитела к тиреоглобулину (АТ-ТГ)",
+   "ат-тг"
+  ],
+  "system": "thyroid",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "calcitonin",
+  "display_name": "Calcitonin",
+  "display_name_ru": "Кальцитонин",
+  "aliases": [
+   "calcitonin",
+   "Кальцитонин"
+  ],
+  "system": "thyroid",
+  "retest_days": 180
+ },
+ {
+  "marker_key": "phosphorus",
+  "display_name": "Phosphorus",
+  "display_name_ru": "Фосфор",
+  "aliases": [
+   "phosphorus",
+   "Фосфор"
+  ],
+  "system": "minerals",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "chloride",
+  "display_name": "Chloride",
+  "display_name_ru": "Хлор",
+  "aliases": [
+   "chloride",
+   "Хлор"
+  ],
+  "system": "minerals",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "inr",
+  "display_name": "INR",
+  "display_name_ru": "МНО",
+  "aliases": [
+   "inr",
+   "МНО"
+  ],
+  "system": "coagulation",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "prothrombin_index",
+  "display_name": "Prothrombin index",
+  "display_name_ru": "Протромбиновый индекс (ПТИ)",
+  "aliases": [
+   "prothrombin index",
+   "ПТИ"
+  ],
+  "system": "coagulation",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "prothrombin_time",
+  "display_name": "Prothrombin time",
+  "display_name_ru": "Протромбиновое время",
+  "aliases": [
+   "prothrombin time",
+   "Протромбиновое время"
+  ],
+  "system": "coagulation",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "thrombin_time",
+  "display_name": "Thrombin time",
+  "display_name_ru": "Тромбиновое время",
+  "aliases": [
+   "thrombin time",
+   "Тромбиновое время"
+  ],
+  "system": "coagulation",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "fibrinogen",
+  "display_name": "Fibrinogen",
+  "display_name_ru": "Фибриноген",
+  "aliases": [
+   "fibrinogen",
+   "Фибриноген"
+  ],
+  "system": "coagulation",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "aptt",
+  "display_name": "aPTT",
+  "display_name_ru": "АЧТВ",
+  "aliases": [
+   "aptt",
+   "тромбопластиновое время (АЧТВ)",
+   "ачтв"
+  ],
+  "system": "coagulation",
+  "retest_days": 365
+ },
+ {
+  "marker_key": "homa_ir",
+  "display_name": "HOMA-IR",
+  "display_name_ru": "Индекс HOMA-IR",
+  "aliases": [
+   "homa-ir",
+   "(инсулин*глюкоза/22,5)",
+   "homa-ir"
+  ],
+  "system": "glucose",
+  "retest_days": 180
+ }
+]

@@ -1,0 +1,27 @@
+[project]
+name = "biostack-api"
+version = "0.1.0"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "alembic>=1.20.1",
+    "apscheduler>=3.11.3",
+    "fastapi>=0.162.4",
+    "google-genai>=3.1.0",
+    "httpx>=0.28.1",
+    "numpy>=2.5.4",
+    "pillow>=13.0.0",
+    "pillow-heif>=1.0",
+    "pydantic-settings>=2.16.2",
+    "pydicom>=3.0.2",
+    "pypdf>=7.0.1",
+    "python-multipart>=0.0.33",
+    "scipy>=1.18.1",
+    "sqlmodel>=0.0.48",
+    "tzlocal>=5.4.5",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

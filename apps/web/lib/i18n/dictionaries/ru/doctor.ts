@@ -1,0 +1,31 @@
+import type { Translations } from "../../types";
+import type * as en from "../en/doctor";
+
+export const doctor: Translations<typeof en.doctor> = {
+  metaTitle: "Сводка для врача · BioStack",
+  title: "Сводка к приёму врача",
+  subtitle: "Краткая выписка по личным медицинским данным для визита к специалисту.",
+  print: "Печать / Сохранить PDF",
+  back: "Назад к обзору",
+  patientHeading: "Базовые данные",
+  ageYears: "{age} лет",
+  sexMale: "Мужской",
+  sexFemale: "Женский",
+  bmiLabel: "ИМТ {value}",
+  generatedOn: "Сформировано {date}",
+  disclaimer: "Личная сводка по загруженным и введённым пользователем данным. Сверяйте значения с оригинальными бланками анализов и заключений.",
+  outHeading: "Показатели вне нормы (последние)",
+  outEmpty: "В последних анализах нет показателей вне референсного диапазона.",
+  colMarker: "Показатель",
+  colValue: "Результат",
+  colRef: "Референс",
+  colDate: "Дата",
+  coursesHeading: "Текущие курсы и препараты",
+  coursesEmpty: "Активные курсы и препараты не указаны.",
+  since: "с {date}",
+  recordsHeading: "Последние записи и визиты",
+  recordsEmpty: "Медицинские записи пока не добавлены.",
+  organsHeading: "История УЗИ по органам",
+  organsEmpty: "История исследований органов пока не добавлена.",
+  scansCount: "{n} исследование|{n} исследования|{n} исследований",
+};

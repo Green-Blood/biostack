@@ -1,0 +1,95 @@
+{
+ "fetched_at": "2026-11-11T00:00:00Z",
+ "clinics": [
+  {
+   "id": "c1",
+   "name": "Test Clinic"
+  }
+ ],
+ "records": [
+  {
+   "id": "r1",
+   "title": "Визит к урологу",
+   "date": "2026-03-10",
+   "created_time": "2026-03-10T10:00:00Z",
+   "last_edited_time": "2026-03-10T10:00:00Z",
+   "details": "<b>жалобы</b><br />нет<p />",
+   "doctors_note": "наблюдение",
+   "clinic_ids": [
+    "c1"
+   ],
+   "medications": [
+    "Креон"
+   ],
+   "body_markdown": ""
+  },
+  {
+   "id": "r2",
+   "title": "Blood panel",
+   "date": "2022-01-15",
+   "created_time": "2025-11-10T10:00:00Z",
+   "last_edited_time": "2025-11-10T10:00:00Z",
+   "details": "",
+   "doctors_note": "",
+   "clinic_ids": [],
+   "medications": [],
+   "body_markdown": "| Test | Result | Reference Range | Interpretation |\n| --- | --- | --- | --- |\n| Ferritin | 28 ng/mL | 30 - 400 | low |\n| Alpha-Amylase | 119 U/L | 28.0 – 100.0 | high |\n| Mystery Marker | 5 mg/L |  |  |\n"
+  }
+ ],
+ "analyses": [
+  {
+   "id": "a1",
+   "name": "Vitamin D",
+   "value": 24.0,
+   "reference_range": "30-100",
+   "date": "2023-05-01",
+   "record_ids": []
+  },
+  {
+   "id": "a2",
+   "name": "УЗИ щитовидной",
+   "value": null,
+   "reference_range": "",
+   "date": "2024-06-03",
+   "record_ids": []
+  },
+  {
+   "id": "a3",
+   "name": "",
+   "value": null,
+   "reference_range": "",
+   "date": null,
+   "record_ids": []
+  },
+  {
+   "id": "a4",
+   "name": "Vitamin D",
+   "value": 30.0,
+   "reference_range": "30-100",
+   "date": null,
+   "record_ids": []
+  }
+ ],
+ "medications": [
+  {
+   "id": "m1",
+   "name": "Креон",
+   "dosage": "25000",
+   "start": "2026-03-10",
+   "end": null,
+   "notes": "",
+   "record_ids": [
+    "r1"
+   ]
+  },
+  {
+   "id": "m2",
+   "name": "",
+   "dosage": "",
+   "start": null,
+   "end": null,
+   "notes": "",
+   "record_ids": []
+  }
+ ]
+}

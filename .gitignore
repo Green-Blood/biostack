@@ -1,0 +1,22 @@
+# private health data — never commit
+biostack.db
+*.db
+data/
+state/
+demo-state/
+.env
+.env.*
+!.env.example
+# tooling
+.superpowers/
+.remember/
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+.next/
+*.log
+.DS_Store
+.playwright-mcp/
+
+.repowise/.augment-*
