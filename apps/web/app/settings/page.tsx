@@ -42,6 +42,15 @@ export default async function SettingsPage() {
           {s.body}
         </section>
       ))}
+      <footer className="flex flex-wrap items-center gap-x-4 gap-y-2 border-t pt-6 text-sm text-muted-foreground">
+        <span>{t("settings.communityNote")}</span>
+        <a href="https://github.com/Green-Blood/biostack/issues/new?template=feature_request.md" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-foreground">
+          {t("settings.suggestFeature")}
+        </a>
+        <a href="https://strangen.gumroad.com/l/biostack-coffee" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-foreground">
+          {t("settings.buyCoffee")}
+        </a>
+      </footer>
     </div>
   );
 }

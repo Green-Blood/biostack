@@ -84,4 +84,7 @@ export const settings: Translations<typeof en.settings> = {
   appleImporting: "Импортируем Apple Health…",
   appleDone: "Импортировано дней: {days} (полей: {fields}, ночей сна: {nights}) из {records} записей.",
   appleFailed: "Не удалось импортировать ZIP Apple Health.",
+  communityNote: "BioStack — бесплатный проект с открытым исходным кодом.",
+  suggestFeature: "Предложить идею на GitHub",
+  buyCoffee: "Угостить кофе",
 } as const;

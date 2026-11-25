@@ -133,7 +133,7 @@ printf 'API_BASE_URL=http://localhost:8000\nAPI_SECRET_KEY=change-me\n' > apps/w
 cd apps/api && uv run pytest -q
 
 # Frontend typecheck, lint, and production build
-cd apps/web && npx tsc --noEmit && npm run lint && npm run build
+cd apps/web && npx next typegen && npx tsc --noEmit && npm run lint && npm run build
 ```
 
 To try demo data against a scratch SQLite database outside Docker:
@@ -146,9 +146,25 @@ uv run python -m scripts.seed_demo --db /path/to/scratch.db --remove
 
 ---
 
-## Roadmap, Contributing & Security
+## What Should Come Next?
 
-- **Roadmap**: See [`docs/ROADMAP.md`](docs/ROADMAP.md) for upcoming features (local AI via Ollama/OpenAI-compatible APIs, onboarding wizard, Apple Health import, Doctor Visit PDF pack) and open-source launch tasks.
+BioStack is shaped by what people actually need for their own health tracking. Planned next milestones include:
+
+- **Garmin & Oura importers** + a generic **CSV/JSON** wearable importer
+- **Multi-profile / family support** (track records for partner, kids, or parents in one instance)
+- **In-app AI provider & model editor** (switch Ollama / LM Studio / OpenAI / Gemini models from Settings)
+- **Merge-style ZIP import** into an existing database
+
+Have an idea, missing lab/wearable format, or feature request?
+- **[Vote or share ideas in GitHub Discussions](https://github.com/Green-Blood/biostack/discussions)**
+- **[Request a Feature (Issue)](https://github.com/Green-Blood/biostack/issues/new?template=feature_request.md)**
+- Full list: [`docs/ROADMAP.md`](docs/ROADMAP.md)
+
+---
+
+## Support, Contributing & Security
+
+- **Support BioStack**: If BioStack saves you time or helps you stay on top of your health, you can **[buy me a coffee](https://strangen.gumroad.com/l/biostack-coffee)** (pay what you want on Gumroad).
 - **Contributing**: See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - **Security**: See [`SECURITY.md`](SECURITY.md).
 - **License**: [MIT](LICENSE).

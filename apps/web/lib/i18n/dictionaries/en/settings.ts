@@ -81,4 +81,7 @@ export const settings = {
   appleImporting: "Importing Apple Health…",
   appleDone: "Imported {days} days ({fields} fields, {nights} sleep nights) from {records} records.",
   appleFailed: "Could not import the Apple Health ZIP.",
+  communityNote: "BioStack is free and open-source.",
+  suggestFeature: "Suggest a feature on GitHub",
+  buyCoffee: "Buy me a coffee",
 } as const;
